@@ -8,4 +8,4 @@ Sperimentazione con Wordpress
 
 Faccio uso del plugin Snippets
 
-Ho creato lo snippet "Wp head" che esegue codice javascript nel tag <head>
+Ho creato lo snippet "Wp head" che esegue codice javascript nel tag &lt;head&gt;
