@@ -5,3 +5,7 @@ Sperimentazione con Wordpress
 - inclusione header contenuto e footer
 - esecuzione shortcode di plugin
 - esecuzione di javascript nativo e con jQuery
+
+Faccio uso del plugin Snippets
+
+Ho creato lo snippet "Wp head" che esegue codice javascript nel tag <head>
