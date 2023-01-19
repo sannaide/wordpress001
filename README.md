@@ -4,3 +4,4 @@ Sperimentazione con Wordpress
 - come includere style.css via codice
 - inclusione header contenuto e footer
 - esecuzione shortcode di plugin
+- esecuzione di javascript nativo e con jQuery
