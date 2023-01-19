@@ -1,1 +1,1 @@
-# wordpress001
+Sperimentazione con Wordpress
