@@ -8,4 +8,15 @@ Sperimentazione con Wordpress
 
 Faccio uso del plugin Snippets
 
-Ho creato lo snippet "Wp head" che esegue codice javascript nel tag &lt;head&gt;
+- ho creato lo snippet "Wp head" che esegue codice javascript nel tag &lt;head&gt;
+- ho creato lo snippet "Includi style.css" seguendo dei tutorial quindi
+includendolo via codice anche perchè c'è un trucco per ricaricarlo sempre e non
+usare la cache
+
+Ho creato la directory "mainpage" in wp-content\themes
+
+e lì ho messo i file
+- header.php
+- index.php
+- footer.php
+- style.css
