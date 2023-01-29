@@ -2,18 +2,24 @@ Sperimentazione con Wordpress
 
 - utilizzo di un layout custom
 - come includere style.css via codice
+- come includere javascript via codice
 - inclusione header, contenuto e footer
-- esecuzione shortcode di plugin
+- esecuzione shortcode mio custom
 - esecuzione di javascript nativo e con jQuery
 
 Faccio uso del plugin Snippets
 
-- ho creato lo snippet "Wp head" che esegue codice javascript nel tag &lt;head&gt;
-- ho creato lo snippet "Includi style.css" seguendo dei tutorial quindi includendolo via codice anche perchè c'è un trucco per ricaricare sempre style.css e non usare la cache
+- in snippets/* ci sono tutti gli snippet
 
 Ho creato la directory "mainpage" in wp-content\themes
 
 e lì ho messo i file
+- components (dir) -> sviluppo per componenti
+  ogni sottodirectory è un componente se contiene
+  css (dir) e js (dir).
+  Ad esempio c'è la directory mainmenu che contiene
+  header sticky e sliding ovvero tre versioni del
+  menu principale
 - header.php
 - index.php
 - footer.php
