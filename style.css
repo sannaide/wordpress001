@@ -1,0 +1,273 @@
+/*
+Theme Name: mainpage
+Author: sannaide
+Author URI: 
+Version: 1.0.0.0
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+ 	padding: 0px;
+    margin: 0px;
+	background-color: #E0C647;
+}
+
+img {
+	margin: 0px;
+    padding: 0px;
+	border-style: none;
+}
+
+div {
+	margin: 0px;
+    padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+/*.post-list-formatting {
+}*/
+
+/*li.listing-item {*/
+  /*display: flex;*/
+  /*width: 100%;*/
+  /*margin: auto;*/
+  /*border-radius: 10px;*/
+  /*border: 3px dashed #1c87c9;*/
+  /*align-items: center;*/
+  /*justify-content: left;*/
+/*}*/
+
+/*a.title {
+	color: white;
+}*/
+
+/*span.date {
+	display: table;
+	color: white;
+}
+
+span.author {
+	display: table;
+	color: white;
+}*/
+
+.post-title {
+	color: #04AA6D;
+    text-align: center;
+    font-size: 38px;
+    padding-top: 20px;
+}
+
+.postlist-text {
+	color: #04AA6D;
+	font-size: 22px;
+    /*overflow-wrap: break-word;*/ /* va a capo continuando il testo, non interrompe */
+}
+
+.postlist-text-title {
+	color: white;
+    /*overflow-wrap: break-word;*/
+}
+
+.postlist-text-author {
+	color: white;
+    /*overflow-wrap: break-word;*/
+}
+
+.postlist-item-items {
+    float: left;
+	/*word-wrap: break-all;*/
+	/*overflow: hidden;
+    text-overflow: ellipsis;*/
+}
+
+.page-numbers {
+	color: #04AA6D;
+}
+
+.header-text {
+	font-size: 48px;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav.pagination {
+	width: 100%;
+    text-align: center;
+	color: #04AA6D;
+}
+
+nav.pagination a {
+	color: #04AA6D;
+}
+
+div.postlist-item {
+	display: flex;
+    /*margin: 20px 20px 20px 0px;*/
+}
+
+.header-text-container {
+	background-color: #ffffff;
+    text-align: center;
+    width:100%;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+}
+
+.header-center-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+.header-text-centered {
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  margin: auto;
+  /*border-radius: 10px;
+  border: 3px dashed #1c87c9;*/
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.header-left {
+  float: left;
+  height: 8rem;
+  width: 70%;
+  background-color: #ffffff;
+  background-image: url("https://sannaidelavoro.altervista.org/wp-content/uploads/2023/01/tooth-brush-1415275-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /*background-image: url("https://sannaidelavoro.altervista.org/wp-content/uploads/2023/01/dente_001.png");
+  background-repeat: repeat;*/
+}
+
+.header-right {
+  float: right;
+  height: 8rem;
+  width: 30%;
+  background-color: #ffffff;
+  background-image: url("https://sannaidelavoro.altervista.org/wp-content/uploads/2023/01/studio_dentistico_002-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.header-center {
+  float: none;
+  height: 8rem;
+  width: 100%;
+  background-color: #ffffff;
+  /*background-image: url("https://sannaidelavoro.altervista.org/wp-content/uploads/2023/01/2105.i211.005.S.m012.c13.stomatology-dentist-composition-realistic-2-scaled.jpg");
+  background-repeat: repeat-x;*/
+  background-image: url("https://sannaidelavoro.altervista.org/wp-content/uploads/2023/01/header2.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  
+  /*width: auto; ATTENZIONE SE NON METTI AUTO NON VISUALIZZA IL BACKGROUND*/
+  /*background-image: url("https://sannaidelavoro.altervista.org/wp-content/uploads/2023/01/header_002.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;*/
+}
+  
+img#header-image-left {
+	float: left;
+    height: 8rem;
+}
+
+img#header-image-right {
+	float: right;
+    height: 8rem;
+}
+
+img#header-image-center {
+    float: none;
+	height: 8rem;
+}  
+
+.site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100000;
+  /*background-image: url("https://sannaidelavoro.altervista.org/wp-content/uploads/2023/01/dente_001.png");
+  background-repeat: repeat;*/
+  /*padding-top: 30px;
+  padding-bottom: 30px;*/
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 8rem;
+}
+
+.content {
+  padding-right: 16px;
+  padding-left: 16px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  html, body { font-size: 26px; }
+  .header-text { font-size: 30px; }
+  .postlist-text { font-size: 22px; }
+  nav.pagination { font-size: 28px; }
+  .site-header { height: 6rem; }
+  .header-left { height: 6rem; }
+  .header-right { height: 6rem; }
+  .header-center { height: 6rem; }
+  .header-text-centered { height: 6rem; }
+}
+
+@media screen and (min-width: 601px) {
+	html, body { font-size: 20px; }
+    .header-text { font-size: 48px; }
+    .postlist-text { font-size: 34px; }
+    nav.pagination { font-size: 28px; }
+    .site-header { height: 8rem; }
+    .header-left { height: 8rem; }
+	.header-right { height: 8rem; }
+    .header-center { height: 8rem; }
+    .header-text-centered { height: 8rem; }
+}
