@@ -1,10 +1,10 @@
 Sperimentazione con Wordpress
 
 - utilizzo di un layout custom
-- come includere style.css via codice
-- come includere javascript via codice
+- come includere i fogli di stile via codice (risolvendo il problema della cache)
+- come includere javascript via codice (risolvendo il problema della cache)
 - inclusione header, contenuto e footer
-- esecuzione shortcode mio custom
+- esecuzione shortcode mio custom (la lista degli articoli è uno shortcode)
 - esecuzione di javascript nativo e con jQuery
 
 Faccio uso del plugin Snippets
