@@ -1,1 +1,6 @@
-
+.av-credit-link{
+	visibility: hidden;
+}
+.av-social-share {
+	display: none;
+}
